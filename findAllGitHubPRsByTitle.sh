@@ -12,7 +12,7 @@ fi
 # Org
 if [ -z "$GH_ORG" ]; then
   echo "Your GH_ORG variable appears blank, make sure to call this script with the org as your first argument, like this:"
-  echo "./findAllPrsWithName YourOrgNameHere \"PR name goes here\""
+  echo "./findAllPrsWithName YourOrgNameHere \"PR title goes here\""
   exit 1
 fi
 # PR Title
